@@ -2,7 +2,9 @@ using System.ComponentModel.DataAnnotations;
 
 namespace CommandAPI.Models
 {
-    public class Command{
+    public class Command
+    {
+    
         [Key]
         [Required]
         public int Id { get; set; }
